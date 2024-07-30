@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+  font-family:Poppins;
+  background-color: white;
+}
+header{
+  background-color: white;
+}
+nav {
+    box-shadow:0 10px 15px rgba(0,0,0,0.10);
+    padding: 10px;
+    top: 0;
+    right: 0;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+  
+nav ul li {
+    margin-left: 20px;
+}
+  
+nav ul li:first-child {
+    margin-left: 0;
+}
+  
+nav ul li a {
+    text-decoration: none;
+    font-weight: 400px;
+    color: black;
+    font-size: 18px;
+}
+
+.bg-image {
+  position: relative;
+  width: 100%; /* Full width of the container */
+  height: 600px; /* Adjust this value to set the desired height */
+  overflow: hidden; /* Hide any overflow of the image */
+}
+
+.bg-image img {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove extra space below the image */
+  filter: brightness(50%); /* Darken the image */
+  object-fit: contain; /* Cover the container without stretching */
+}
+
+
+.text-box {
+  position: absolute; /* Positions the text-box over the image */
+  top: 20%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust position to center */
+  text-align: center; /* Center-align the text */
+  color: rgba(255, 255, 255, 0.8); /* Transparent white color */
+  padding: 20px; /* Optional: Add padding around the text */
+}
+
+.bg-image h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 2.5em; /* Adjust font size as needed */
+}
+
+.rescue {
+  margin-top: 100px;
+  width: 100%;
+  overflow: hidden;
+  /* Adding box shadow */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  padding: 20px; /* Adds padding inside the container */
+  background-color: #f9f9f9; /* Optional: Light background for contrast */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* Space between images */
+}
+
+.container img {
+  box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional: Adds rounded corners to images */
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid black; /* Corrected border property */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+
+
+hr {
+  border: 0;
+  height: 4px;
+  width: 80%; /* Width of the line */
+  max-width: 100%; /* Ensure it doesn't exceed the container width */
+  background-color: #000;
+  margin: 100px auto; /* Center align and space out from the top and bottom */
+}
+
+
+
+.about-sec {
+  text-align: center;
+  margin-top: 50px;
+}
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  gap: 20px; /* Optional: Adds space between the image and the text */
+}
+.about-container .image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional: Adds rounded corners to the image */
+}
+.my-about {
+  max-width: 600px;
+  text-align: justify;
+}
+
+/*------------------------------------contact section------------------------------------*/
+.mailbox-icon {
+  color: blue;
+  font-size: 1.2em; 
+  margin-right: 5px; 
+}
+
+
+.phone-symbol {
+  color: blue; 
+  font-size: 1.2em;
+  margin-right: 5px; 
+}
+
+.contact{
+  margin:100px;
+  display:flex;
+  align-items: center;
+  column-gap: 100px;
+}
+
+
+
+  footer {
+    padding: 10px;
+    text-align: center;
+}
+  
+ 
+  
