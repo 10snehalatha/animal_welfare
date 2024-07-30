@@ -1,7 +1,7 @@
-# Animal Welfare Management System
+# Animal Welfare 
 
 ## Overview
-The Animal Welfare Management System is a web-based platform designed to help injured or unhealthy animals by connecting them with volunteers and animal charities. Users can report cases by uploading images and details of the animals in need, while volunteers can view these reports and take necessary actions to provide assistance.
+The Animal Welfare is a web-based platform designed to help injured or unhealthy animals by connecting them with volunteers and animal charities. Users can report cases by uploading images and details of the animals in need, while volunteers can view these reports and take necessary actions to provide assistance.
 
 ## Features
 - **Animal Listings**: Upload and view details of injured animals, including images, location, and type of injury.
